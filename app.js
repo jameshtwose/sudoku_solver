@@ -6,9 +6,9 @@ let submission = []
 
 for (let index = 0; index < squares; index++) {
     const inputElement = document.createElement("input")
-    inputElement.setAttribute("type", "number")
-    inputElement.setAttribute("min", 1)
-    inputElement.setAttribute("max", 9)
+    inputElement.setAttribute("type", "text")
+    inputElement.setAttribute("min", "1")
+    inputElement.setAttribute("max", "9")
     puzzleBoard.appendChild(inputElement)
 
     if (

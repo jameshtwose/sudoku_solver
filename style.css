@@ -1,3 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    /* font-family: monospace; */
+  }
+
+body h1 {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+body h4 {
+    width: 60%;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 #puzzle {
     width: 450px;
     height: 450px;
@@ -9,8 +32,24 @@
     box-sizing: border-box;
     border-spacing: 0;
     border: 1px gray solid;
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
 }
 
 .odd-section {
-    background-color: palevioletred;
+    background-color: rgba(37, 113, 189, 0.548);
+}
+
+#solve-button {
+    background-color: rgba(37, 113, 189, 0.548);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#solve-button:hover {
+    background-color: rgb(37, 113, 189);
 }
