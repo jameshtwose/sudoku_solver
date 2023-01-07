@@ -4,7 +4,7 @@
   "description": "A quick javascript sudoku solver",
   "main": "app.js",
   "scripts": {
-    "start:backend": "nodemon server.js",
+    "start:backend": "nodemon sudoku/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -38,11 +38,11 @@ body h4 {
 }
 
 .odd-section {
-    background-color: rgba(37, 113, 189, 0.548);
+    background-color: #5f4a8990;
 }
 
 #solve-button {
-    background-color: rgba(37, 113, 189, 0.548);
+    background-color:  #5f4a8990;
     color: white;
     padding: 10px;
     margin: 20px;
@@ -51,5 +51,5 @@ body h4 {
 }
 
 #solve-button:hover {
-    background-color: rgb(37, 113, 189);
+    background-color:  #5f4a89;
 }
